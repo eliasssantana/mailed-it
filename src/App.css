@@ -1,0 +1,39 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form{
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form > h1{
+  font-size: 2rem;
+}
+
+form > div{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: .5rem;
+  width: 40vw;
+}
+
+form > .button-container{
+  display: flex;
+  justify-content: center;
+}
+
+input, textarea{
+  width: 25vw;
+}
+
